@@ -13,7 +13,7 @@
           component: 'tabs',
           edit: 'TabsView',
           title: 'Tabs',
-          desc: 'The <code>v-tabs</code> component is used for hiding content behind a selectable item. This can also be used as a psuedo-navigation for a page, where the tabs are links and the tab-items are the content.',
+          desc: 'The <code>v-tabs</code> component is used for hiding content behind a selectable item. This can also be used as a psuedo-navigation for a page, where the tabs are links and the tab-items are the content. To use it with vue-router, i.e. to have <code>router-view<code> render the selected tab, just use the <code>router</roter> attribute, skip <code>v-tabs-content</code> and put the <code>router-view</code> where appropriate',
           examples: [
             { header: 'Mobile tabs', file: 'tabs/1' },
             { header: '', file: 'tabs/2' },
